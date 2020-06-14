@@ -1,0 +1,115 @@
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav-link{
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+
+.jumbotron
+{   
+    background-image:url('konskiki.JPG');
+    background-size: cover;
+    margin-top: 1em;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+
+.jumbotron h1 {
+    color:white;
+    text-align: center;
+}
+
+.img{
+    opacity: 0.8;
+}
+
+
+hr{
+    border-color: white;
+    border-width: 1px;
+}
+
+.jumbotron p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#gambar{
+    width: 330px;
+    height: 441px;
+    border-radius: 15px 15px;
+    background-size: 100% 100%;
+}
+
+#gambar1{
+    width: 45vh;
+    height: 35vh;
+    border-radius: 15px 15px;
+    background-size: 100% 100%;
+}
+
+.footer{
+    color: white;
+}
+
+.youtube{
+    width:280px; 
+    height:170px;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2,h1{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.btn, p, .footer{
+    font-family: 'Jost', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .column-margin {
+      margin-bottom: 20px ;
+    }
+    .jumbotron {
+        margin-top: 0.5em;
+        padding-top: 6em;
+        padding-bottom: 5em;
+        background-position: center;
+    }
+}
+
+@media (width:1024px){
+    #gambar1{
+        width: 30vh;
+        height: 20vh;
+        border-radius: 15px 15px;
+        background-size: 100% 100%;
+    }
+    .jumbotron{   
+        background-size: cover;
+        margin-top: 1em;
+        padding-top: 10em;
+        padding-bottom: 10em;
+        background-position: center;
+    }
+}
+
+@media (width:768px){
+    #gambar1{
+        width: 30vh;
+        height: 20vh;
+        border-radius: 15px 15px;
+        background-size: 100% 100%;
+    }
+
+    .youtube{
+        width:220px; 
+        height:130px;
+    }
+}

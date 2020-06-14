@@ -1,0 +1,101 @@
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav-link{
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+
+.footer{
+    color: white;
+}
+
+.jumbotron
+{   
+    background-image:url('aa.jpg');
+    background-size: cover;
+    margin-top: 1em;
+    padding-top: 15em;
+    padding-bottom: 20em;
+}
+
+.jumbotron h1{
+    color:white;
+    text-align: left;
+}
+
+.jumbotron p{
+    font-size: 20px;
+    color: white;
+}
+
+.img{
+    opacity: 0.8;
+}
+
+.card:hover{
+    background:rgb(41, 43, 44);
+    color: white;
+    transition: background 0.35s ease-in-out;
+    transform: scale(1.05 , 1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+hr{
+    border-color: white;
+    border-width: 1px;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2,h1,h5{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+ p, .footer{
+    font-family: 'Jost', sans-serif;
+}
+
+@media (width:768px){
+    .card-deck{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+        grid-gap: 0.5rem;
+    }
+    .jumbotron {
+        margin-top: 1em;
+        padding-top: 10em;
+        padding-bottom: 10em;
+        background-position: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .jumbotron {
+        margin-top: 0.5em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        background-position: center;
+    }
+}
+
+@media (width:1024px){
+    .jumbotron{   
+        background-size: cover;
+        margin-top: 1em;
+        padding-top: 10em;
+        padding-bottom: 20em;
+        background-position: center;
+    }
+}
+
+
+
