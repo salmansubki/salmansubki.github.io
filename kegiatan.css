@@ -1,5 +1,6 @@
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
+    color: white;
 }
 
 .nav-link{
@@ -9,6 +10,17 @@
 
 .footer{
     color: white;
+}
+
+
+
+/* .navbar{
+    color: rgb(12, 24, 70);
+} */
+
+.card-title1{
+    /* font-family: 'Bebas Neue', cursive; */
+    color: rgb(147, 147, 147);
 }
 
 .jumbotron
@@ -49,8 +61,27 @@ p{
     font-family: 'Jost', sans-serif;
 }
 
+.youtube{
+    width: 350px; 
+    height:200px;
+}
+
 @media (max-width: 991px) {
     .column-margin {
       margin-bottom: 20px ;
+    }
+}
+
+@media (width:768px){
+    /* #gambar1{
+        width: 30vh;
+        height: 20vh;
+        border-radius: 15px 15px;
+        background-size: 100% 100%;
+    } */
+
+    .youtube{
+        width:220px; 
+        height:130px;
     }
 }

@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tentang.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Bebas+Neue&family=Jost&display=swap" rel="stylesheet">
 
@@ -48,112 +48,77 @@
 
     <div class="jumbotron img img-responsive">
         <div class="container">
-            <h1>Selamat Datang di KonsKiki</h1>
-            <hr>
-            <p class="lead">Tempat Para Pemimpi</p>
+            <h1 class="display-4 ">Tentang Kami</h1>
+            <p>Berikut adalah sejarah bagaimana kami terbentuk</p>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6">
-                <h2>Tentang Kami</h2>
-                <p class="text-justify">
-                Kami adalah sekumpulan anak muda yang sedang membangun mimpi di Bumi Ganesha.
-                Kami berkolaborasi untuk menjamin terbentuknya lingkungan yang tersinkronisasi
-                baik akademik, non-akademik, jasmani, maupun spiritual. Hal-hal keren dan menarik kami lakukan 
-                di tempat ini. Komunitas ini sangat terbuka bagi siapapun yang ingin memperbaiki dirinya
-                menjadi lebih baik.
-                </p>
-                <a class="btn btn-outline-dark btn-sm" href="tentang.html">Klik di sini Untuk Cari Tahu!</a>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 d-flex justify-content-center">
-                <img src="19.jpg" id="gambar">
-            </div>
-            
-        </div>
-    </div>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
+    <!--This is the main container that contains the whole timeline.-->
+    <section class="design-section">
+        <h2>Sejarah Kami</h2>
+        <br>
+    <div class="timeline">
+        
 
-    <br><br>
+            <!--Well, The reason for this div is to fill space. 
+    This space is technically used for keeping dates, 
+    but I didn't find the need for dates. However, I'll provide 
+    you the styling for dates, so that you can use it if you 
+    wanted to.-->
+                    <div class="timeline-empty">
+                    </div>
 
-    <div class="container">
-        <h2>Bagaimana Cara Menjangkau Kami?</h2>
-        <div class="embed-responsive embed-responsive-21by9">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.2656353673389!2d107.61926752918272!3d-6.883111799689131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6fe4132eb75%3A0xcce1d7c653f5ef4d!2sJl.%20Tubagus%20Ismail%20XII%20No.7%2C%20Sekeloa%2C%20Kecamatan%20Coblong%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040134!5e0!3m2!1sen!2sid!4v1591764568398!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </div>
+    <!--This is the class where the timeline graphics are 
+    housed in. Note that we have timeline-circle 
+    here for that pointer in timeline.-->
 
-    <br><br>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 d-flex justify-content-center column-margin">
-                <img src="330696.jpg" id="gambar1">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6">
-                <h2>Our Squad</h2>
-                <p class="text-justify">
-                Kami memiliki 10 anggota tetap serta beberapa anggota lainnya
-                yang menunjang kami di berbagai kegiatan.
-                </p>
-                <a class="btn btn-outline-dark btn-sm" href="oursquad.html">Klik di sini Untuk Cari Tahu!</a>
-            </div>
-        </div>
-        <!--kasih more...-->
-    </div>
-
-
-    <br><br>
-
-    
-<!-- <style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
-This is the main container that contains the whole timeline.
-<section class="design-section">
-<div class="timeline"> -->
-
-          <!--Well, The reason for this div is to fill space. 
-This space is technically used for keeping dates, 
-but I didn't find the need for dates. However, I'll provide 
-you the styling for dates, so that you can use it if you 
-wanted to.-->
-                  <!-- <div class="timeline-empty">
-                  </div> -->
-
-<!--This is the class where the timeline graphics are 
-housed in. Note that we have timeline-circle 
-here for that pointer in timeline.-->
-
-               <!-- <div class="timeline-middle">
-                   <div class="timeline-circle"></div>
-               </div>
-               <div class="timeline-component timeline-content">
-                <h3>HTML</h3>
-                <p>Some Text</p>
-           </div>
-                <div class="timeline-component timeline-content">
-                         <h3>CSS</h3>
-                         <p>Some Text.</p>
-                </div>
                 <div class="timeline-middle">
                     <div class="timeline-circle"></div>
                 </div>
-                <div class="timeline-empty">
+
+                <div class="timeline-component timeline-content">
+                    <h3>Terbentuk</h3>
+                    <p>Kami terbentuk atas inisiatif 10 orang untuk berkumpul di 1 atap yang sama.</p>
                 </div>
 
-                <div class="timeline-empty">
+                <div class="timeline-component timeline-content">
+                    <h3>Belajar & Berhimpun</h3>
+                    <p>Menimba ilmu serta mengembangkan relasi.</p>
                 </div>
 
-               <div class="timeline-middle">
-                   <div class="timeline-circle"></div>
-               </div>
-               <div class=" timeline-component timeline-content">
-                <h3>Javascript</h3>
-                <p>Some Text.</p>
-           </div>
 
-       </div>
-    </div> 
-</section> -->
+                
+                <div class="timeline-middle">
+                        <div class="timeline-circle"></div>
+                </div>
+
+                    <div class="timeline-empty">
+                    </div>
+
+                    <div class="timeline-empty">
+                    </div>
+
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+
+                <div class=" timeline-component timeline-content">
+                    <h3>Sarjana</h3>
+                    <p>Lulus dengan bangga dari Kampus Ganesa.</p>
+                </div>
+
+                <div class=" timeline-component timeline-content">
+                    <h3>Pasca Kampus</h3>
+                    <p>Kami berpindah domisili ke Jakarta dan terus berkembang.</p>
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-middle1">
+                    <div class="timeline-circle"></div>
+            </div>
+        </div>
+        </div> 
+    </section>
     <!-- <div class="container">
         <h2 class="text-center">Our Youtube</h2>
         <div class="row">
